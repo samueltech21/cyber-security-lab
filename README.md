@@ -32,24 +32,6 @@ Cyber Security Lab combines:
 - **WebSockets** - Real-time communication
 - **Docker** - Container isolation for labs
 
-## Project Structure
-
-```
-cyber-security-lab/
-├── src/
-│   ├── app/                 # Next.js app directory
-│   ├── components/          # Reusable React components
-│   ├── pages/              # Page components
-│   ├── lib/                # Utilities and helpers
-│   ├── types/              # TypeScript types
-│   ├── hooks/              # Custom React hooks
-│   ├── store/              # Zustand stores
-│   └── api/                # API client functions
-├── public/                 # Static assets
-├── docs/                   # Documentation
-└── package.json
-```
-
 ## Getting Started
 
 ### Prerequisites
@@ -75,102 +57,12 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-## Features
-
-### 🎓 Student Platform
-- Dashboard with XP, level, and progress tracking
-- Course enrollment and learning paths
-- Lab access and automated grading
-- Quiz and exam management
-- Achievement and certificate system
-- Leaderboards and tournaments
-- AI assistant for learning support
-
-### 👨‍🏫 Instructor Dashboard
-- Create and manage courses
-- Design lessons and quizzes
-- Track student progress
-- Grade submissions
-- Course analytics
-
-### 🧑‍💻 Mentor Dashboard
-- Student mentoring sessions
-- Career guidance
-- Progress tracking
-- Feedback and study plans
-
-### ⚙️ Admin Dashboard
-- User management
-- Platform configuration
-- Analytics and monitoring
-- Security settings
-- System logs
-
-### 👔 CEO/Executive Dashboard
-- Business analytics
-- Revenue tracking
-- User growth metrics
-- Platform health monitoring
-
-## Cybersecurity Topics
-
-### Beginner
-- Computer fundamentals
-- Internet fundamentals
-- Networking basics
-- Linux fundamentals
-- Cybersecurity fundamentals
-- Programming fundamentals
-
-### Intermediate
-- Network security
-- Web security
-- Digital forensics
-- Security operations
-- Authentication & Cryptography
-- Secure programming
-
-### Advanced
-- Ethical hacking
-- Penetration testing
-- Threat intelligence
-- Incident response
-- Malware analysis
-- Cloud security
-- Security architecture
-
-## Lab Environments
-
-- **Linux Lab** - Command-line, permissions, shell scripting
-- **Networking Lab** - TCP/IP, DNS, routing, firewalls
-- **Web Security Lab** - XSS, SQL injection, CSRF
-- **Digital Forensics** - Evidence analysis, log parsing
-- **Incident Response** - Simulated breach scenarios
-- **Capture the Flag** - Security challenges
-
-## Real-time Features
-
-- Live notifications
-- Messaging system
-- Collaborative study sessions
-- Tournament updates
-- Device status monitoring
-
-## Security & Privacy
-
-- Role-based access control (RBAC)
-- Secure authentication
-- Encrypted data storage
-- Session management
-- Audit logging
-- Privacy controls
-- Consent management
-
 ## Development Roadmap
 
 - [x] Project setup and structure
-- [ ] Authentication system
+- [ ] Frontend configuration
 - [ ] Homepage and landing page
+- [ ] Authentication system
 - [ ] Student dashboard
 - [ ] Course management
 - [ ] Lab environment
@@ -183,18 +75,6 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 - [ ] Device management
 - [ ] Payment integration
 
-## Contributing
-
-See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines.
-
 ## License
 
-MIT License - See LICENSE file
-
-## Support
-
-For support, email support@cybersecuritylab.com or create an issue on GitHub.
-
----
-
-**Built with ❤️ for cybersecurity education**
+MIT License
